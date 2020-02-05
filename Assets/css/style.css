@@ -9,11 +9,6 @@ a
     color: black;
     font-size: large;
 }
-h1
-{
-    font-size: 30px;
-    font-weight: bold;
-}
 body
 {
     background-image: url("../images/blue_background.jpg");
@@ -30,6 +25,15 @@ footer
     padding: 10px;
     background-color: whitesmoke;
 }
+h1
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+img
+{
+    background-color: grey;
+}
 .content
 {
     background-color: whitesmoke;
@@ -42,6 +46,16 @@ footer
 .inline
 {
     display: inline-block;
+}
+.inline-2
+{
+    display: inline-block;
+    width: 48%;
+}
+.inline-3
+{
+    display: inline-block;
+    width: 30%;
 }
 .nav-bar
 {
@@ -60,6 +74,10 @@ footer
     padding: 10px;
     width: 65%;
 }
+.pic
+{
+
+}
 .push
 {
     flex: 1;
@@ -67,4 +85,19 @@ footer
 .right-line-break
 {
     border-right: 1px solid black;
+}
+.text-padding
+{
+    padding: 20px;
+}
+#about_me_text
+{
+    padding: 20px;
+}
+#about-me-holder
+{
+    margin: 10px auto;
+    padding: 10px;
+    border-top: black solid 1px;
+    border-bottom: black solid 1px;
 }
