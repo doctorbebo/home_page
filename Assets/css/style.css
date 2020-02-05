@@ -22,30 +22,36 @@ footer
     margin: 50px 0 0 0;
     border-top: solid black 3px;
     width: 100%;
-    padding: 10px;
+    padding-top: 5px;
     background-color: whitesmoke;
 }
 h1
 {
     font-size: 30px;
     font-weight: bold;
+    text-align: center;
 }
 img
 {
     background-color: grey;
 }
+.bottom-align
+{
+}
 .content
 {
     background-color: whitesmoke;
     width: 85%;
-    margin: 50px auto 0px auto;
+    margin: 0 auto;
+    margin-top: 50px;
     padding: 10px;
     border: black solid 2px;
     border-radius: 5px;
 }
-.inline
+.inline-1
 {
     display: inline-block;
+    width: 100%;
 }
 .inline-2
 {
@@ -57,22 +63,24 @@ img
     display: inline-block;
     width: 30%;
 }
+.inline-4
+{
+    display: inline-block;
+    width: 23%;
+}
 .nav-bar
 {
-    width: 100%;
     padding: 10px;
     background-color: whitesmoke;
     border-bottom: solid black 3px;
 }
 .nav-link
 {
-    width: 10%;
     padding: 5px;
 }
 .nav-header
 {
     padding: 10px;
-    width: 65%;
 }
 .pic
 {
@@ -90,14 +98,54 @@ img
 {
     padding: 20px;
 }
+.wrapper
+{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
 #about_me_text
 {
     padding: 20px;
+    vertical-align: top;
+
 }
 #about-me-holder
 {
     margin: 10px auto;
-    padding: 10px;
     border-top: black solid 1px;
     border-bottom: black solid 1px;
+
+}
+#copyright-text
+{
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+@media only screen and (max-width: 1200px) 
+{
+    .wrapper
+    {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .inline-2
+    {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 300px) 
+{
+    img 
+    {
+        width: 150px;
+        height: 150px;
+    }
 }
