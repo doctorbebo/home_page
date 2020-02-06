@@ -34,6 +34,8 @@ h1
 img
 {
     background-color: grey;
+    width: 250px;
+    height: 250px;
 }
 .button
 {
@@ -44,6 +46,13 @@ img
     font-weight: bold;
     font-size: 25px;
     margin: 10px;
+}
+.contact-info
+{
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: underline;
+    color: blue;
 }
 .content
 {
@@ -89,6 +98,12 @@ img
 {
     padding: 10px;
 }
+.pic
+{
+    width: 300px;
+    height: 200px;
+
+}
 .push
 {
     flex: 1;
@@ -100,6 +115,15 @@ img
 .text-padding
 {
     padding: 20px;
+    vertical-align: top;
+    text-align: left;
+}
+.top-bottom-border
+{
+    margin: 10px;
+    padding: 10px;
+    border-top: black solid 1px;
+    border-bottom: black solid 1px;
 }
 .wrapper
 {
@@ -110,9 +134,7 @@ img
 }
 #about_me_text
 {
-    padding: 20px;
     vertical-align: top;
-
 }
 #about-me-holder
 {
@@ -126,6 +148,7 @@ img
     padding-top: 10px;
     padding-bottom: 2px;
 }
+
 
 @media only screen and (max-width: 1200px) 
 {
