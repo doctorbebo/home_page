@@ -37,12 +37,18 @@ img
     width: 250px;
     height: 250px;
 }
-.bottom-border
+.border-top
+{
+    margin: 10px;
+    padding: 10px;
+    border-top: black solid 1px;
+}
+.border-bottom
 {
     margin: 10px;
     padding: 10px;
     border-bottom: black solid 1px;
-}
+} 
 .button
 {
     background-image: url("../images/blue_background.jpg");
@@ -124,13 +130,6 @@ img
     vertical-align: top;
     text-align: left;
 }
-.top-bottom-border
-{
-    margin: 10px;
-    padding: 10px;
-    border-top: black solid 1px;
-    border-bottom: black solid 1px;
-} 
 .wrapper
 {
     width: 75%;
@@ -164,7 +163,7 @@ img
     }
 }
 
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 775px) 
 {
     .inline-2
     {
