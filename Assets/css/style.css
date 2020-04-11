@@ -37,6 +37,12 @@ img
     width: 250px;
     height: 250px;
 }
+.bottom-border
+{
+    margin: 10px;
+    padding: 10px;
+    border-bottom: black solid 1px;
+}
 .button
 {
     background-image: url("../images/blue_background.jpg");
@@ -124,7 +130,7 @@ img
     padding: 10px;
     border-top: black solid 1px;
     border-bottom: black solid 1px;
-}
+} 
 .wrapper
 {
     width: 75%;
